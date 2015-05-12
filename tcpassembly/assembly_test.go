@@ -7,8 +7,8 @@
 package tcpassembly
 
 import (
-	"github.com/packetbeat/gopacket"
-	"github.com/packetbeat/gopacket/layers"
+	"github.com/tsg/gopacket"
+	"github.com/tsg/gopacket/layers"
 	"net"
 	"reflect"
 	"testing"

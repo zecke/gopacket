@@ -9,7 +9,7 @@
 package layers
 
 import (
-	"github.com/packetbeat/gopacket"
+	"github.com/tsg/gopacket"
 	"testing"
 )
 

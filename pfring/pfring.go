@@ -21,7 +21,7 @@ import "C"
 
 import (
 	"fmt"
-	"github.com/packetbeat/gopacket"
+	"github.com/tsg/gopacket"
 	"os"
 	"strconv"
 	"sync"

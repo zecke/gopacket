@@ -11,7 +11,7 @@ package layers
 
 import (
 	"fmt"
-	"github.com/packetbeat/gopacket"
+	"github.com/tsg/gopacket"
 	"net"
 )
 

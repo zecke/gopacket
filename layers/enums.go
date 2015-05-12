@@ -10,7 +10,7 @@ package layers
 import (
 	"errors"
 	"fmt"
-	"github.com/packetbeat/gopacket"
+	"github.com/tsg/gopacket"
 )
 
 // EnumMetadata keeps track of a set of metadata for each enumeration value

@@ -9,7 +9,7 @@ package layers
 
 import (
 	"encoding/binary"
-	"github.com/packetbeat/gopacket"
+	"github.com/tsg/gopacket"
 	"net"
 	"time"
 )

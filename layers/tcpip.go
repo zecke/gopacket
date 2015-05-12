@@ -9,7 +9,7 @@ package layers
 
 import (
 	"fmt"
-	"github.com/packetbeat/gopacket"
+	"github.com/tsg/gopacket"
 )
 
 // Checksum computation for TCP/UDP.

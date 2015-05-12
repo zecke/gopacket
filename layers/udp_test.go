@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/packetbeat/gopacket"
+	"github.com/tsg/gopacket"
 )
 
 // testUDPPacketDNS is the packet:

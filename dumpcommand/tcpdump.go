@@ -12,8 +12,8 @@ package dumpcommand
 import (
 	"flag"
 	"fmt"
-	"github.com/packetbeat/gopacket"
-	_ "github.com/packetbeat/gopacket/layers" // pulls in all layers decoders
+	"github.com/tsg/gopacket"
+	_ "github.com/tsg/gopacket/layers" // pulls in all layers decoders
 	"log"
 	"os"
 	"time"
