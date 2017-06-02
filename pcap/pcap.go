@@ -544,6 +544,11 @@ func findalladdresses(addresses *_Ctype_struct_pcap_addr) (retval []InterfaceAdd
 	for curaddr := addresses; curaddr != nil; curaddr = (*_Ctype_struct_pcap_addr)(curaddr.next) {
 		var a InterfaceAddress
 		var err error
+		// In case of a tun device on Linux the link layer has no curaddr.addr.
+		// Do not crash trying to check the family type.
+		if curaddr.addr == nil {
+			continue
+		}
 		if a.IP, err = sockaddr_to_IP((*syscall.RawSockaddr)(unsafe.Pointer(curaddr.addr))); err != nil {
 			continue
 		}
