@@ -93,7 +93,7 @@ const (
 type LinkType uint8
 
 const (
-	// According to pcap-linktype(7) and http://www.tcpdump.org/linktypes.html
+	// According to pcap-linktype(7) and http://www.tcpdump.org/linktypes.html with fixes from pcap/bpf.h
 	LinkTypeNull           LinkType = 0
 	LinkTypeEthernet       LinkType = 1
 	LinkTypeAX25           LinkType = 3
@@ -102,10 +102,10 @@ const (
 	LinkTypeSLIP           LinkType = 8
 	LinkTypePPP            LinkType = 9
 	LinkTypeFDDI           LinkType = 10
+	LinkTypeRaw            LinkType = 12
 	LinkTypePPP_HDLC       LinkType = 50
 	LinkTypePPPEthernet    LinkType = 51
 	LinkTypeATM_RFC1483    LinkType = 100
-	LinkTypeRaw            LinkType = 101
 	LinkTypeC_HDLC         LinkType = 104
 	LinkTypeIEEE802_11     LinkType = 105
 	LinkTypeFRelay         LinkType = 107
